@@ -1,2 +1,2 @@
-# pike-s-python
-这是git的测试
+# pike的python学习记录
+这是我阅读笨办法学习python3中的个人见解以及每一章的python文件
