@@ -1,3 +1,4 @@
 1.第一步git commit -m "更新备注"
 2.第二部git push
 3.查看是否有更新git status
+4.测试切换用户
