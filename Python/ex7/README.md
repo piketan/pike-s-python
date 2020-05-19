@@ -1,0 +1,9 @@
+#python中print的换行
+    在这章里学到了end=""这句它的效果就是两段print中不让他进行转行
+    如下
+    print(end1+end2+end3+end4+end5+end6,end='')
+    print(end7+end8+end9+end10+end11+end12)
+    他输出的结果就是CheeseBurger
+    如果第一段不加end=""他输出的结果就是
+    Cheese
+    Burger
