@@ -1,6 +1,6 @@
-from sys import argv
+#from sys import argv
 # 引入sys这个库使用argv这个模块
-script, input_file = argv
+#script, input_file = argv
 # script是argv自带的变量 它的作用就是显示当前文件路径
 def print_all(f):
     print(f.read())
@@ -13,7 +13,7 @@ def rewind(f):
 def print_a_line(line_count, f):
     print(line_count, f.readline())
 
-current_file = open(input_file)
+current_file = open('ex20.txt','rb')
 
 print("首先我们将打印这个文件 file:\n")
 
@@ -26,9 +26,6 @@ rewind(current_file)
 print("现在打印这个文件的第三行:")
 
 current_line = 1
-print_a_line(current_line, current_file)
-
-current_line = current_line + 1
 print_a_line(current_line, current_file)
 
 current_line = current_line + 1
